@@ -1,0 +1,10 @@
+venv/
+.env
+keys.txt
+bill.pdf
+cause_list.pdf
+ploomber.py
+pluto.py
+app.ipynb
+.git/
+.gitignore
