@@ -225,26 +225,3 @@ async def on_message(message: cl.Message):
 
     await cl.Message(content=answer, elements=text_elements).send()
 
-
-# ploomber below
-
-    # if source_documents:
-    #     for source_idx, source_doc in enumerate(source_documents):
-    #         source_name = f"source {source_idx+1}"
-    #         # Create the text element referenced in the message
-    #         text_elements.append(
-    #             cl.Text(content=source_doc.page_content, name=source_name)
-    #         )
-    #     source_names = [text_el.name for text_el in text_elements]
-
-    #     if source_names:
-    #         answer += f"\nSources: {', '.join(source_names)}"
-    #     else:
-    #         answer += "\nNo sources found"
-
-    # await cl.Message(content=answer, elements=text_elements).send()
-
-
-
-
-    
